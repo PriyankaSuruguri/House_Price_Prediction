@@ -17,15 +17,17 @@ The primary objectives of this project are:
 ## Methodology
 Steps:
 - Data Preprocessing:
-Handle missing values (if any).
+Handle missing values.
 Standardize/normalize numeric features.
 - Exploratory Data Analysis (EDA):
-Visualize the distribution of features.
-Analyze correlations between features and the target variable (price).
+Visualize the distribution of features using distplot.
+Analyze pairwise relationships between features using pairplot.
+Examine correlations using a heatmap.
 - Model Building:
 Split the dataset into training and testing sets.
 Train the Linear Regression model on the training data.
 Evaluate the model using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared.
+Visualize predictions versus actual values using scatter plots.
 - Prediction:
 Use the trained model to predict house prices for new data.
 
@@ -34,9 +36,7 @@ Key performance metrics for the model include:
 - Mean Absolute Error (MAE): Measures the average absolute difference between predicted and actual values.
 - Mean Squared Error (MSE): Indicates the average squared difference between predicted and actual values.
 - R-squared (R²): Explains the proportion of variance in the target variable captured by the model.
-The results indicate that the model provides reasonable predictions, with strong correlations observed between input features and house prices.
+The results indicate that the model provides reasonable predictions, with strong correlations observed between input features and house prices. Visualizations such as scatter plots, heatmaps, and distplots reveal clear patterns that validate the model's assumptions.
 
-## Conclusion
+# Conclusion
 This project highlights the effectiveness of Linear Regression in predicting house prices based on key features. While the model performs well, further improvements could include incorporating additional features, handling potential outliers, or experimenting with more complex algorithms. The insights derived from this analysis can guide real estate professionals and policy-makers in making informed decisions.
-
-
